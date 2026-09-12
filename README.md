@@ -6,7 +6,7 @@ This project was completed as part of the RabTech Academy Artificial Intelligenc
 
 ### Project Objective
 
-The objective of this project is to predict whether a customer is likely to churn (leave the service) based on customer behavior and usage patterns while demonstrating Machine Learning, Deep Learning, and Model Evaluation techniques.
+The objective of this project is to predict whether a customer is likely to churn (leave the service) based on customer behavior and usage patterns while demonstrating Machine Learning, Deep Learning, Model Evaluation, and Deployment concepts.
 
 ### Dataset
 
@@ -28,6 +28,7 @@ The project uses the provided customer churn training dataset containing custome
 * Machine Learning Preprocessing Pipeline
 * Model Training and Comparison
 * Deep Learning Sentiment Analysis
+* FastAPI Deployment
 
 ### Prediction Target
 
@@ -35,10 +36,6 @@ The project uses the provided customer churn training dataset containing custome
 
 * 1 = Customer Churned
 * 0 = Customer Retained
-
-### Baseline Approach
-
-A simple rule-based baseline is used before applying machine learning models.
 
 ### Evaluation Metrics
 
@@ -114,9 +111,28 @@ Notebook:
 
 ---
 
+## Task 6 - FastAPI Deployment
+
+Implemented:
+
+* FastAPI REST API
+* /predict Endpoint
+* Docker Containerization
+* Unit Testing
+* API Documentation
+
+Files:
+
+* app.py
+* Dockerfile
+* requirements.txt
+* test_api.py
+
+---
+
 ### Repository Structure
 
-```text
+```text id="r9k8zv"
 README.md
 ML_Problem_Framing_Memo.md
 Responsible_Data_Card.md
@@ -126,6 +142,10 @@ customer-churn-training.csv
 Model_Comparison.ipynb
 best_model.joblib
 Deep_Learning_Sentiment_Analysis.ipynb
+app.py
+Dockerfile
+requirements.txt
+test_api.py
 ```
 
 ### Technologies Used
@@ -135,7 +155,9 @@ Deep_Learning_Sentiment_Analysis.ipynb
 * NumPy
 * Scikit-Learn
 * TensorFlow / Keras
+* FastAPI
 * Joblib
+* Docker
 * Google Colab
 * Jupyter Notebook
 
@@ -143,4 +165,4 @@ Deep_Learning_Sentiment_Analysis.ipynb
 
 Asad Alam
 
-B.Tech CSE
+B.Tech CSE, IILM University
