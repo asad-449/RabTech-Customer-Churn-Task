@@ -6,7 +6,7 @@ This project was completed as part of the RabTech Academy Artificial Intelligenc
 
 ### Project Objective
 
-The objective of this project is to predict whether a customer is likely to churn (leave the service) based on customer behavior and usage patterns.
+The objective of this project is to predict whether a customer is likely to churn (leave the service) based on customer behavior and usage patterns while demonstrating Machine Learning, Deep Learning, and Model Evaluation techniques.
 
 ### Dataset
 
@@ -27,6 +27,7 @@ The project uses the provided customer churn training dataset containing custome
 * Risk Register
 * Machine Learning Preprocessing Pipeline
 * Model Training and Comparison
+* Deep Learning Sentiment Analysis
 
 ### Prediction Target
 
@@ -47,6 +48,8 @@ A simple rule-based baseline is used before applying machine learning models.
 * F1 Score
 * ROC-AUC Score
 
+---
+
 ## Task 3 - Machine Learning Preprocessing Pipeline
 
 Implemented:
@@ -59,6 +62,8 @@ Implemented:
 * Scikit-Learn Pipeline
 * Correlation Analysis
 * Feature Importance Analysis
+
+---
 
 ## Task 4 - Model Training and Comparison
 
@@ -88,6 +93,27 @@ Artifacts Generated:
 * Model_Comparison.ipynb
 * best_model.joblib
 
+---
+
+## Task 5 - Deep Learning Sentiment Analysis
+
+Implemented:
+
+* TF-IDF Vectorization
+* Multi-Layer Neural Network
+* Batch Normalization
+* Dropout Regularization
+* Early Stopping
+* Training and Validation
+* Accuracy and Loss Curves
+* Sample Inference Predictions
+
+Notebook:
+
+* Deep_Learning_Sentiment_Analysis.ipynb
+
+---
+
 ### Repository Structure
 
 ```text
@@ -98,5 +124,23 @@ Risk_Register.md
 Baseline_Model.py
 customer-churn-training.csv
 Model_Comparison.ipynb
-best
+best_model.joblib
+Deep_Learning_Sentiment_Analysis.ipynb
 ```
+
+### Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Scikit-Learn
+* TensorFlow / Keras
+* Joblib
+* Google Colab
+* Jupyter Notebook
+
+### Author
+
+Asad Alam
+
+B.Tech CSE
