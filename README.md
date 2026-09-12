@@ -26,6 +26,7 @@ The project uses the provided customer churn training dataset containing custome
 * Baseline Model
 * Risk Register
 * Machine Learning Preprocessing Pipeline
+* Model Training and Comparison
 
 ### Prediction Target
 
@@ -44,6 +45,7 @@ A simple rule-based baseline is used before applying machine learning models.
 * Precision
 * Recall
 * F1 Score
+* ROC-AUC Score
 
 ## Task 3 - Machine Learning Preprocessing Pipeline
 
@@ -58,6 +60,34 @@ Implemented:
 * Correlation Analysis
 * Feature Importance Analysis
 
+## Task 4 - Model Training and Comparison
+
+Models Implemented:
+
+* Logistic Regression
+* Decision Tree Classifier
+* Random Forest Classifier
+* Gradient Boosting Classifier
+
+Hyperparameter Optimization:
+
+* GridSearchCV
+* 5-Fold Cross Validation
+
+Model Evaluation:
+
+* Accuracy
+* Precision
+* Recall
+* F1 Score
+* ROC-AUC Analysis
+* Confusion Matrix
+
+Artifacts Generated:
+
+* Model_Comparison.ipynb
+* best_model.joblib
+
 ### Repository Structure
 
 ```text
@@ -67,19 +97,6 @@ Responsible_Data_Card.md
 Risk_Register.md
 Baseline_Model.py
 customer-churn-training.csv
-Customer_Churn_Pipeline.ipynb
+Model_Comparison.ipynb
+best
 ```
-
-### Technologies Used
-
-* Python
-* Pandas
-* Scikit-Learn
-* Google Colab
-* Jupyter Notebook
-
-### Author
-
-Asad Alam
-
-B.Tech CSE, IILM University
