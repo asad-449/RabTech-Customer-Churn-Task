@@ -25,6 +25,7 @@ The project uses the provided customer churn training dataset containing custome
 * Responsible Data Card
 * Baseline Model
 * Risk Register
+* Machine Learning Preprocessing Pipeline
 
 ### Prediction Target
 
@@ -44,6 +45,19 @@ A simple rule-based baseline is used before applying machine learning models.
 * Recall
 * F1 Score
 
+## Task 3 - Machine Learning Preprocessing Pipeline
+
+Implemented:
+
+* Train/Test Split before transformations
+* Missing Value Imputation
+* Feature Scaling
+* One-Hot Encoding
+* ColumnTransformer
+* Scikit-Learn Pipeline
+* Correlation Analysis
+* Feature Importance Analysis
+
 ### Repository Structure
 
 ```text
@@ -53,7 +67,16 @@ Responsible_Data_Card.md
 Risk_Register.md
 Baseline_Model.py
 customer-churn-training.csv
+Customer_Churn_Pipeline.ipynb
 ```
+
+### Technologies Used
+
+* Python
+* Pandas
+* Scikit-Learn
+* Google Colab
+* Jupyter Notebook
 
 ### Author
 
